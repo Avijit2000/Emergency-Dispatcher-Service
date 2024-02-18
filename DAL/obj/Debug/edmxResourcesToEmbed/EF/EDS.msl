@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EDSModelStoreContainer" CdmEntityContainer="EDSEntities1">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="EDSModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="bd_id" ColumnName="bd_id" />
+          <ScalarProperty Name="cg_id" ColumnName="cg_id" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="a_id" ColumnName="a_id" />
+          <ScalarProperty Name="fs_id" ColumnName="fs_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="ps_id" ColumnName="ps_id" />
+          <ScalarProperty Name="h_id" ColumnName="h_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hospitals">
+      <EntityTypeMapping TypeName="EDSModel.hospital">
+        <MappingFragment StoreEntitySet="hospital">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="police">
+      <EntityTypeMapping TypeName="EDSModel.police">
+        <MappingFragment StoreEntitySet="police">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="EDSModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="bd_id" ColumnName="bd_id" />
+          <ScalarProperty Name="cg_id" ColumnName="cg_id" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+          <ScalarProperty Name="a_id" ColumnName="a_id" />
+          <ScalarProperty Name="fs_id" ColumnName="fs_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="ps_id" ColumnName="ps_id" />
+          <ScalarProperty Name="h_id" ColumnName="h_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ambulances">
+      <EntityTypeMapping TypeName="EDSModel.ambulance">
+        <MappingFragment StoreEntitySet="ambulance">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bombdisposals">
+      <EntityTypeMapping TypeName="EDSModel.bombdisposal">
+        <MappingFragment StoreEntitySet="bombdisposal">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coastguards">
+      <EntityTypeMapping TypeName="EDSModel.coastguard">
+        <MappingFragment StoreEntitySet="coastguard">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fireservices">
+      <EntityTypeMapping TypeName="EDSModel.fireservice">
+        <MappingFragment StoreEntitySet="fireservice">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="towservices">
+      <EntityTypeMapping TypeName="EDSModel.towservice">
+        <MappingFragment StoreEntitySet="towservice">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

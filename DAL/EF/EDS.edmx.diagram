@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d8e97dd99194e7f869f4f784dc8aa67" Name="Diagram1">
+        <EntityTypeShape EntityType="EDSModel.admin" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDSModel.hospital" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDSModel.police" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDSModel.user" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="EDSModel.FK_admin_hospital" ManuallyRouted="false" />
+        <AssociationConnector Association="EDSModel.FK_admin_police" ManuallyRouted="false" />
+        <AssociationConnector Association="EDSModel.FK_user_hospital" ManuallyRouted="false" />
+        <AssociationConnector Association="EDSModel.FK_user_police" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="EDSModel.ambulance" Width="1.5" PointX="0.75" PointY="6.5" />
+        <EntityTypeShape EntityType="EDSModel.bombdisposal" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="EDSModel.coastguard" Width="1.5" PointX="0.75" PointY="11.5" />
+        <EntityTypeShape EntityType="EDSModel.fireservice" Width="1.5" PointX="0.75" PointY="9" />
+        <EntityTypeShape EntityType="EDSModel.towservice" Width="1.5" PointX="5.375" PointY="7.875" />
+        <AssociationConnector Association="EDSModel.FK_admin_ambulance" />
+        <AssociationConnector Association="EDSModel.FK_admin_bombdisposal" />
+        <AssociationConnector Association="EDSModel.FK_admin_coastguard" />
+        <AssociationConnector Association="EDSModel.FK_admin_fireservice" />
+        <AssociationConnector Association="EDSModel.FK_admin_towservice" />
+        <AssociationConnector Association="EDSModel.FK_user_ambulance" />
+        <AssociationConnector Association="EDSModel.FK_user_bombdisposal" />
+        <AssociationConnector Association="EDSModel.FK_user_coastguard" />
+        <AssociationConnector Association="EDSModel.FK_user_fireservice" />
+        <AssociationConnector Association="EDSModel.FK_user_towservice" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
